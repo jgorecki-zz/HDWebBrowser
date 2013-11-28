@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF328F5A182D87D200DC653D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF328F59182D87D200DC653D /* Foundation.framework */; };
+		FF328F5C182D87D200DC653D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF328F5B182D87D200DC653D /* CoreGraphics.framework */; };
+		FF328F5E182D87D200DC653D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF328F5D182D87D200DC653D /* UIKit.framework */; };
+		FF328F64182D87D200DC653D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF328F62182D87D200DC653D /* InfoPlist.strings */; };
+		FF328F66182D87D200DC653D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF328F65182D87D200DC653D /* main.m */; };
+		FF328F6A182D87D200DC653D /* HDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF328F69182D87D200DC653D /* HDAppDelegate.m */; };
+		FF328F6C182D87D200DC653D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF328F6B182D87D200DC653D /* Images.xcassets */; };
+		FF328F73182D87D200DC653D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF328F72182D87D200DC653D /* XCTest.framework */; };
+		FF328F74182D87D200DC653D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF328F59182D87D200DC653D /* Foundation.framework */; };
+		FF328F75182D87D200DC653D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF328F5D182D87D200DC653D /* UIKit.framework */; };
+		FF328F7D182D87D200DC653D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF328F7B182D87D200DC653D /* InfoPlist.strings */; };
+		FF328F7F182D87D200DC653D /* HDWebBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF328F7E182D87D200DC653D /* HDWebBrowserTests.m */; };
+		FF328F8B182D882400DC653D /* HDWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF328F89182D882400DC653D /* HDWebBrowserViewController.m */; };
+		FF328F8C182D882400DC653D /* HDWebBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF328F8A182D882400DC653D /* HDWebBrowserViewController.xib */; };
+		FF328F91182D921600DC653D /* HDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF328F8F182D921600DC653D /* HDRootViewController.m */; };
+		FF328F92182D921600DC653D /* HDRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF328F90182D921600DC653D /* HDRootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF328F76182D87D200DC653D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF328F4E182D87D200DC653D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF328F55182D87D200DC653D;
+			remoteInfo = HDWebBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF328F56182D87D200DC653D /* HDWebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDWebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF328F59182D87D200DC653D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF328F5B182D87D200DC653D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF328F5D182D87D200DC653D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF328F61182D87D200DC653D /* HDWebBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HDWebBrowser-Info.plist"; sourceTree = "<group>"; };
+		FF328F63182D87D200DC653D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF328F65182D87D200DC653D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF328F67182D87D200DC653D /* HDWebBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HDWebBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		FF328F68182D87D200DC653D /* HDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDAppDelegate.h; sourceTree = "<group>"; };
+		FF328F69182D87D200DC653D /* HDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDAppDelegate.m; sourceTree = "<group>"; };
+		FF328F6B182D87D200DC653D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF328F71182D87D200DC653D /* HDWebBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDWebBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF328F72182D87D200DC653D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FF328F7A182D87D200DC653D /* HDWebBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HDWebBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		FF328F7C182D87D200DC653D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF328F7E182D87D200DC653D /* HDWebBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDWebBrowserTests.m; sourceTree = "<group>"; };
+		FF328F88182D882400DC653D /* HDWebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDWebBrowserViewController.h; sourceTree = "<group>"; };
+		FF328F89182D882400DC653D /* HDWebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDWebBrowserViewController.m; sourceTree = "<group>"; };
+		FF328F8A182D882400DC653D /* HDWebBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDWebBrowserViewController.xib; sourceTree = "<group>"; };
+		FF328F8E182D921600DC653D /* HDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDRootViewController.h; sourceTree = "<group>"; };
+		FF328F8F182D921600DC653D /* HDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDRootViewController.m; sourceTree = "<group>"; };
+		FF328F90182D921600DC653D /* HDRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDRootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF328F53182D87D200DC653D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF328F5C182D87D200DC653D /* CoreGraphics.framework in Frameworks */,
+				FF328F5E182D87D200DC653D /* UIKit.framework in Frameworks */,
+				FF328F5A182D87D200DC653D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF328F6E182D87D200DC653D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF328F73182D87D200DC653D /* XCTest.framework in Frameworks */,
+				FF328F75182D87D200DC653D /* UIKit.framework in Frameworks */,
+				FF328F74182D87D200DC653D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF328F4D182D87D200DC653D = {
+			isa = PBXGroup;
+			children = (
+				FF328F5F182D87D200DC653D /* HDWebBrowser */,
+				FF328F78182D87D200DC653D /* HDWebBrowserTests */,
+				FF328F58182D87D200DC653D /* Frameworks */,
+				FF328F57182D87D200DC653D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF328F57182D87D200DC653D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF328F56182D87D200DC653D /* HDWebBrowser.app */,
+				FF328F71182D87D200DC653D /* HDWebBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF328F58182D87D200DC653D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF328F59182D87D200DC653D /* Foundation.framework */,
+				FF328F5B182D87D200DC653D /* CoreGraphics.framework */,
+				FF328F5D182D87D200DC653D /* UIKit.framework */,
+				FF328F72182D87D200DC653D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF328F5F182D87D200DC653D /* HDWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				FF328F68182D87D200DC653D /* HDAppDelegate.h */,
+				FF328F69182D87D200DC653D /* HDAppDelegate.m */,
+				FF328F6B182D87D200DC653D /* Images.xcassets */,
+				FF328F60182D87D200DC653D /* Supporting Files */,
+				FF328F8D182D883000DC653D /* HDWebBrowserViewController */,
+				FF328F8E182D921600DC653D /* HDRootViewController.h */,
+				FF328F8F182D921600DC653D /* HDRootViewController.m */,
+				FF328F90182D921600DC653D /* HDRootViewController.xib */,
+			);
+			path = HDWebBrowser;
+			sourceTree = "<group>";
+		};
+		FF328F60182D87D200DC653D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF328F61182D87D200DC653D /* HDWebBrowser-Info.plist */,
+				FF328F62182D87D200DC653D /* InfoPlist.strings */,
+				FF328F65182D87D200DC653D /* main.m */,
+				FF328F67182D87D200DC653D /* HDWebBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF328F78182D87D200DC653D /* HDWebBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF328F7E182D87D200DC653D /* HDWebBrowserTests.m */,
+				FF328F79182D87D200DC653D /* Supporting Files */,
+			);
+			path = HDWebBrowserTests;
+			sourceTree = "<group>";
+		};
+		FF328F79182D87D200DC653D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF328F7A182D87D200DC653D /* HDWebBrowserTests-Info.plist */,
+				FF328F7B182D87D200DC653D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF328F8D182D883000DC653D /* HDWebBrowserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF328F88182D882400DC653D /* HDWebBrowserViewController.h */,
+				FF328F89182D882400DC653D /* HDWebBrowserViewController.m */,
+				FF328F8A182D882400DC653D /* HDWebBrowserViewController.xib */,
+			);
+			path = HDWebBrowserViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF328F55182D87D200DC653D /* HDWebBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF328F82182D87D200DC653D /* Build configuration list for PBXNativeTarget "HDWebBrowser" */;
+			buildPhases = (
+				FF328F52182D87D200DC653D /* Sources */,
+				FF328F53182D87D200DC653D /* Frameworks */,
+				FF328F54182D87D200DC653D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDWebBrowser;
+			productName = HDWebBrowser;
+			productReference = FF328F56182D87D200DC653D /* HDWebBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF328F70182D87D200DC653D /* HDWebBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF328F85182D87D200DC653D /* Build configuration list for PBXNativeTarget "HDWebBrowserTests" */;
+			buildPhases = (
+				FF328F6D182D87D200DC653D /* Sources */,
+				FF328F6E182D87D200DC653D /* Frameworks */,
+				FF328F6F182D87D200DC653D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF328F77182D87D200DC653D /* PBXTargetDependency */,
+			);
+			name = HDWebBrowserTests;
+			productName = HDWebBrowserTests;
+			productReference = FF328F71182D87D200DC653D /* HDWebBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF328F4E182D87D200DC653D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Joseph Gorecki";
+				TargetAttributes = {
+					FF328F70182D87D200DC653D = {
+						TestTargetID = FF328F55182D87D200DC653D;
+					};
+				};
+			};
+			buildConfigurationList = FF328F51182D87D200DC653D /* Build configuration list for PBXProject "HDWebBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF328F4D182D87D200DC653D;
+			productRefGroup = FF328F57182D87D200DC653D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF328F55182D87D200DC653D /* HDWebBrowser */,
+				FF328F70182D87D200DC653D /* HDWebBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF328F54182D87D200DC653D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF328F92182D921600DC653D /* HDRootViewController.xib in Resources */,
+				FF328F64182D87D200DC653D /* InfoPlist.strings in Resources */,
+				FF328F8C182D882400DC653D /* HDWebBrowserViewController.xib in Resources */,
+				FF328F6C182D87D200DC653D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF328F6F182D87D200DC653D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF328F7D182D87D200DC653D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF328F52182D87D200DC653D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF328F91182D921600DC653D /* HDRootViewController.m in Sources */,
+				FF328F6A182D87D200DC653D /* HDAppDelegate.m in Sources */,
+				FF328F66182D87D200DC653D /* main.m in Sources */,
+				FF328F8B182D882400DC653D /* HDWebBrowserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF328F6D182D87D200DC653D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF328F7F182D87D200DC653D /* HDWebBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF328F77182D87D200DC653D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF328F55182D87D200DC653D /* HDWebBrowser */;
+			targetProxy = FF328F76182D87D200DC653D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF328F62182D87D200DC653D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF328F63182D87D200DC653D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF328F7B182D87D200DC653D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF328F7C182D87D200DC653D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF328F80182D87D200DC653D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF328F81182D87D200DC653D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF328F83182D87D200DC653D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HDWebBrowser/HDWebBrowser-Prefix.pch";
+				INFOPLIST_FILE = "HDWebBrowser/HDWebBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF328F84182D87D200DC653D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HDWebBrowser/HDWebBrowser-Prefix.pch";
+				INFOPLIST_FILE = "HDWebBrowser/HDWebBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FF328F86182D87D200DC653D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HDWebBrowser.app/HDWebBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HDWebBrowser/HDWebBrowser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HDWebBrowserTests/HDWebBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FF328F87182D87D200DC653D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HDWebBrowser.app/HDWebBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HDWebBrowser/HDWebBrowser-Prefix.pch";
+				INFOPLIST_FILE = "HDWebBrowserTests/HDWebBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF328F51182D87D200DC653D /* Build configuration list for PBXProject "HDWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF328F80182D87D200DC653D /* Debug */,
+				FF328F81182D87D200DC653D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF328F82182D87D200DC653D /* Build configuration list for PBXNativeTarget "HDWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF328F83182D87D200DC653D /* Debug */,
+				FF328F84182D87D200DC653D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF328F85182D87D200DC653D /* Build configuration list for PBXNativeTarget "HDWebBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF328F86182D87D200DC653D /* Debug */,
+				FF328F87182D87D200DC653D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF328F4E182D87D200DC653D /* Project object */;
+}
